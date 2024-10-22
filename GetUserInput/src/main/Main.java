@@ -11,6 +11,7 @@ public class Main {
 		//assegnamo ad una variabile quello che l'utente scriverà
 		String nome = scanner.nextLine();
 		System.out.println("Il tuo nome e': "+nome);
+		scanner.close();
 	}
 
 }
